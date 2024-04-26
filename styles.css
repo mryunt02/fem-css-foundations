@@ -88,7 +88,7 @@ ul {
   cursor: pointer;
   margin: 100px 0px 0px 20px;
 }
-.button > img {
+button > img {
   margin-left: 10px;
   height: 28.51px;
 }
