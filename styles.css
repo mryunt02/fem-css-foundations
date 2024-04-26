@@ -1,0 +1,94 @@
+:root {
+  --orange-color: #ff7b54;
+  --white-color: #ffffff;
+  --used-font: "Inter", sans-serif;
+  --bold: 700;
+  --regular: 400;
+}
+body {
+  background-color: var(--orange-color);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  margin-top: 30px;
+}
+.header a {
+  color: var(--white-color);
+  font-family: var(--used-font);
+  font-weight: var(--regular);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24.2px;
+}
+.header .first-a {
+  font-weight: var(--bold);
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  line-height: 48.41px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+}
+.header-div {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  list-style: none;
+}
+.main-p {
+  font-family: var(--used-font);
+  font-weight: var(--bold);
+  font-size: 128px;
+  color: var(--white-color);
+  margin: 0 60px;
+  margin-left: 150px;
+  line-height: 154.91px;
+}
+.date {
+  font-family: var(--used-font);
+  font-weight: var(--regular);
+  font-size: 20px;
+  color: var(--white-color);
+  margin: 0 60px;
+  margin-left: 150px;
+  line-height: 24.2px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.first-button {
+  background-color: var(--white-color);
+  color: var(--orange-color);
+  font-family: var(--used-font);
+  font-weight: var(--bold);
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  margin: 100px 0px 0px 150px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.second-button {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  font-family: var(--used-font);
+  font-weight: var(--bold);
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid var(--white-color);
+  cursor: pointer;
+  margin: 100px 0px 0px 20px;
+}
+.button > img {
+  margin-left: 10px;
+  height: 28.51px;
+}
